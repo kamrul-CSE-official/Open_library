@@ -1,0 +1,37 @@
+.bg{
+    background-image: url("../images/bg-book2.jpg");
+    background-color: #017199;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
+  .center{
+    margin: auto;
+    padding-bottom: 100px;
+    margin-top: 40px;
+    text-align: center;
+}
+.center h1{
+    color: white;
+}
+.btn-search{
+    /* padding: 5px 15px; */
+    color: white;
+    background-color: rgb(14, 97, 129);
+    border: 2px solid white;
+    cursor: pointer;
+}
+.btn-search :hover{
+    /* padding: 7px 17px; */
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.input{
+    width: 50%;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin: 5px;
+}

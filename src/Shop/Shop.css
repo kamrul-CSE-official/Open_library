@@ -1,0 +1,29 @@
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, [col] 1fr);
+    grid-row-gap: 15px;
+    background-color: rgb(238, 238, 68);
+}
+.products img{
+    width: 30%;
+}
+.product{
+    text-align: center;
+    border-radius: 25px;
+    background-color: white;
+    height: 450px;
+    width: 300px;
+    margin: 5px;
+}
+.book-name{
+    color: green;
+}
+.btn-regular{
+    background-color: goldenrod;
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: white;
+    cursor: pointer;
+}
